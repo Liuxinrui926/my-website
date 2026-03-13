@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "liuxinrui926-website",
+    "section": "",
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites. 你好，我是刘心蕊 学号：2025303120074 这是我用 Quarto 搭建的个人网站，用于分享学习笔记和科研成果 资源利用与植物保护专业 兴趣：坡耕地土壤养分循环、微生物生态数据分析 技能：- R 语言- Python- Quarto"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site 研究经历 - 坡耕地土壤微生物群落分析 - 利用 16S rRNA 测序技术分析土壤微生物多样性 - 用 R 语言进行数据清洗、统计检验与可视化 - 科研文档管理 - 学习 Quarto 实现代码、文字与图表的一体化写作 - 搭建个人网站用于分享科研笔记与成果"
+  }
+]
