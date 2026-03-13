@@ -109,35 +109,44 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#欢迎来到我的网站" id="toc-欢迎来到我的网站" class="nav-link active" data-scroll-target="#欢迎来到我的网站">👋 欢迎来到我的网站！</a>
+  <ul class="collapse">
+  <li><a href="#关于我" id="toc-关于我" class="nav-link" data-scroll-target="#关于我">📌 关于我</a></li>
+  <li><a href="#近期工作" id="toc-近期工作" class="nav-link" data-scroll-target="#近期工作">📚 近期工作</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">my-website</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
+<p>title: “刘心蕊个人网站” format: html —</p>
+<section id="欢迎来到我的网站" class="level1">
+<h1>👋 欢迎来到我的网站！</h1>
+<p>这是我用 Quarto 搭建的第一个网站 🎉</p>
+<section id="关于我" class="level2">
+<h2 class="anchored" data-anchor-id="关于我">📌 关于我</h2>
+<p>-学号：2025303120074 - 专业：农业科学 / 土壤学方向 - 正在学习：生物信息学、数据分析 - 兴趣：坡耕地水土保持、土壤微生物研究</p>
+</section>
+<section id="近期工作" class="level2">
+<h2 class="anchored" data-anchor-id="近期工作">📚 近期工作</h2>
+<ol type="1">
+<li>完成了坡耕地径流小区的采样实验</li>
+<li>正在分析土壤微生物群落数据</li>
+<li>准备撰写学术汇报PPT</li>
+</ol>
 
 
-</header>
-
-
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -213,7 +222,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/Liuxinrui926\.github\.io\/my-website\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

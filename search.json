@@ -2,8 +2,22 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "my-website",
+    "title": "👋 欢迎来到我的网站！",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "title: “刘心蕊个人网站” format: html —"
+  },
+  {
+    "objectID": "index.html#关于我",
+    "href": "index.html#关于我",
+    "title": "👋 欢迎来到我的网站！",
+    "section": "📌 关于我",
+    "text": "📌 关于我\n-学号：2025303120074 - 专业：农业科学 / 土壤学方向 - 正在学习：生物信息学、数据分析 - 兴趣：坡耕地水土保持、土壤微生物研究"
+  },
+  {
+    "objectID": "index.html#近期工作",
+    "href": "index.html#近期工作",
+    "title": "👋 欢迎来到我的网站！",
+    "section": "📚 近期工作",
+    "text": "📚 近期工作\n\n完成了坡耕地径流小区的采样实验\n正在分析土壤微生物群落数据\n准备撰写学术汇报PPT"
   }
 ]
